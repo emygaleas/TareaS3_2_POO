@@ -3,6 +3,11 @@ package ejercicio8;
 public class Cuentas {
     //se crea el atributo saldo para la cuenta
     double saldo;
+    //metodo constructor
+    public Cuentas(double saldo) {
+        this.saldo = saldo;
+    }
+
     public void mostrarSaldo(){
         System.out.println("\nEl saldo actual es: $" + saldo);
     }
