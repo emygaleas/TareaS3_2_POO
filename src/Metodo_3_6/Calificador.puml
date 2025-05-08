@@ -1,0 +1,19 @@
+@startuml
+Clasificador --> Nota
+
+class Clasificador{
+   A= 90
+   B=80
+   C=70
+   D=60
+   F=fail
+    public static char categoriaDeCalificacion(double calificacion)
+}
+
+class Nota{
+    Clasificador
+    miCalificacion = 88.3
+    char miCategoria = Calificador.categoriaDeCalificacion(miCalificacion);
+}
+
+@enduml
