@@ -1,0 +1,29 @@
+@startuml
+
+class Persona {
+  + nombre : String
+  + edad : int
+  + Persona (nombre: String, edad : int)
+  + verificarEdad() : boolean
+}
+
+Object Main1 {
+  + nombre = "Pedro"
+  + edad = 19
+  + "Es mayor de edad"
+}
+Object Main2 {
+  + nombre = "Jessica"
+  + edad = 14
+  + "Es menor de edad"
+}
+Object Main3 {
+  + nombre = "Eduardo"
+  + edad = 32
+  + "Es mayor de edad"
+}
+
+Persona --> Main1
+Persona --> Main2
+Persona --> Main3
+@enduml

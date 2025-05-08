@@ -1,0 +1,16 @@
+@startuml
+Class Producto{
+    + static float : precio
+    + static float : descuento
+
+    + static float calcularPrecioConDescuento()
+}
+
+Producto --> producto
+
+Object producto{
+    + precio
+    + descuento
+}
+
+@enduml

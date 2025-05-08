@@ -1,0 +1,28 @@
+@startuml
+Class Idioma{
+    - String : idioma
+    * Idioma (String idioma)
+    + String getIdioma()
+    + void setIdioma(String idioma)
+    + void validarIdioma()
+}
+
+Idioma --> valIdioma
+Object valIdioma{
+    + idioma
+}
+
+Class Notificacion{
+    - String : notificaciones
+    * Notificacion(String notificaciones)
+    + String getNotificaciones()
+    + void setNotificaciones(String notificaciones)
+    + void validarNotificaciones()
+}
+
+Notificacion --> notificacion
+Object notificacion{
+    + idioma
+}
+
+@enduml
