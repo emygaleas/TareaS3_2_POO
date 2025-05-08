@@ -13,7 +13,7 @@ public class Notificacion {
         return notificaciones;
     }
 
-    // Metodo ser para modificar notificacion
+    // Metodo set para modificar notificacion
     public void setNotificaciones(String notificaciones) {
         this.notificaciones = notificaciones;
     }

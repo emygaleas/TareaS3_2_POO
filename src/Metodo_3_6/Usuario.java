@@ -1,5 +1,5 @@
 package Metodo_3_6;
-
+//ejercicio 3
 public class Usuario {
     //Atributos
     String nombre = "";

@@ -1,4 +1,5 @@
 package Metodo_3_6;
+//ejercicio 6
 public class Calificador {
     public static char categoriaDeCalificacion(double calificacion) {
         if (calificacion >= 90) {
