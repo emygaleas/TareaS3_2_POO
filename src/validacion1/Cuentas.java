@@ -11,6 +11,7 @@ public class Cuentas {
     public void mostrarSaldo(){
         System.out.println("\nEl saldo actual es: $" + saldo);
     }
+
     //metodo para validar el monto del deposito
     public void validacionDeposito(double monto){
         //si el monto es positivo, se deposita

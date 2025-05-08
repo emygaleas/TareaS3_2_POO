@@ -18,10 +18,12 @@ public class Main {
         Notificacion notificacion = new Notificacion(notificaciones);
 
         valIdioma.validarIdioma();
+
         notificacion.validarNotificaciones();
 
         System.out.println("---------");
         valIdioma.setIdioma("Aleman");
+
         valIdioma.validarIdioma();
 
         notificacion.setNotificaciones("si");

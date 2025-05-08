@@ -22,9 +22,9 @@ public class Idioma {
     public void validarIdioma() {
         if (this.idioma.toLowerCase().equals("español") || this.idioma.toLowerCase().equals("ingles")
                 || this.idioma.toLowerCase().equals("frances")) {
-            System.out.println("Idioma " + this.idioma + " es valido.");
+            System.out.println("Idioma " + getIdioma() + " es valido.");
         } else {
-            System.out.println("Idioma " + this.idioma + " no es valido.");
+            System.out.println("Idioma " + getIdioma() + " no es valido.");
         }
     }
 }

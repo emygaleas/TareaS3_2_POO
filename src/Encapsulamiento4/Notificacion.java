@@ -8,11 +8,6 @@ public class Notificacion {
         this.notificaciones = notificaciones;
     }
 
-    // Metodo get
-    public String getNotificaciones() {
-        return notificaciones;
-    }
-
     // Metodo set para modificar notificacion
     public void setNotificaciones(String notificaciones) {
         this.notificaciones = notificaciones;

@@ -10,7 +10,7 @@ public class ControlCuentas {
         //ingresar el monto a depositar
         double deposito = sc.nextDouble();
         //crear un objeto cuenta
-        Cuentas cuenta = new Cuentas(100);
+        Cuentas cuenta = new Cuentas(0);
         //se valida y se agrega el monto a la cuenta
         cuenta.validacionDeposito(deposito);
 
