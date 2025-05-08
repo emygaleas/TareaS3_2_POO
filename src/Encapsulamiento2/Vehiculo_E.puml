@@ -1,0 +1,19 @@
+@startuml
+Vehiculo --> miCoche
+class Vehiculo {
+  - velocidad: int
+  - VELOCIDAD_MAXIMA: int = 200
+  + Vehiculo()
+  + acelerar(incremento: int): void
+  + frenar(decremento: int): void
+  + getVelocidad(): int
+}
+
+class miCoche{
+    Vehiculo
+    miCoche.acelerar(80)
+    miCoche.acelerar(150)
+    miCoche.frenar(100)
+    miCoche.frenar(200
+}
+@enduml
