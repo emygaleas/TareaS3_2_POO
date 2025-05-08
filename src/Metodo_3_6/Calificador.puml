@@ -1,6 +1,5 @@
 @startuml
 Clasificador --> Nota
-
 class Clasificador{
    A= 90
    B=80
@@ -9,7 +8,6 @@ class Clasificador{
    F=fail
     public static char categoriaDeCalificacion(double calificacion)
 }
-
 class Nota{
     Clasificador
     miCalificacion = 88.3

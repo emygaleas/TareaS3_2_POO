@@ -1,5 +1,4 @@
 package Validacion2;
-
 public class Vehiculo {
     private int velocidad;
     private static final int VELOCIDAD_MAXIMA = 200;
@@ -9,7 +8,6 @@ public class Vehiculo {
             System.out.println("El incremento debe ser positivo");
             return;
         }
-
         if (velocidad + incremento > VELOCIDAD_MAXIMA) {
             System.out.println("¡Atención! No se puede superar la velocidad máxima de " + VELOCIDAD_MAXIMA + " km/h");
             velocidad = VELOCIDAD_MAXIMA;

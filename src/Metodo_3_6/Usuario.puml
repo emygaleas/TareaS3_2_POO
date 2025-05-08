@@ -5,7 +5,6 @@ class Usuario {
     String nombre
     public static String saludar(String nombre) {
  }
-
 class Eduardo {
     Usuario
     String saludo = Usuario.saludar(nombreUsuario)

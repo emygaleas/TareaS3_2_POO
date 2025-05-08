@@ -8,7 +8,6 @@ class Vehiculo {
   + frenar(decremento: int): void
   + getVelocidad(): int
 }
-
 class miCoche{
     Vehiculo
     miCoche.acelerar(80)
