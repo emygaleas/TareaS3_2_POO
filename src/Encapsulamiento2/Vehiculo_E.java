@@ -46,12 +46,12 @@ public class Vehiculo_E {
         }
     }
 
-    // 🔹 GETTER (única forma de consultar la velocidad desde fuera)
+    // Unica forma de consultar la velocidad desde fuera)
     public int getVelocidad() {
         return velocidad;
     }
 
-    // 🔹 MÉTODO PARA MOSTRAR ESTADO ACTUAL
+    //  MÉTODO PARA MOSTRAR ESTADO ACTUAL
     public void mostrarEstado() {
         System.out.println("\n[ESTADO ACTUAL]");
         System.out.println("Velocidad: " + velocidad + " km/h");
